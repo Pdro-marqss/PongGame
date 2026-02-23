@@ -1,0 +1,32 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+out/
+build/
+cmake-build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Executáveis e libs
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
