@@ -19,6 +19,16 @@ class Ball
         {
             x += speed_x;
             y += speed_y;
+
+            // Se a ponta da bola atingir a borda de cima ou de baixo da tela inverte a direção
+            if (y + radius >= GetScreenHeight() || y - radius <= 0)
+            {
+                speed_y *= -1;
+            }
+            if (x + radius >= GetScreenWidth() || x - radius <= 0)
+            {
+                speed_x *= -1;
+            }
         }
 };
 
